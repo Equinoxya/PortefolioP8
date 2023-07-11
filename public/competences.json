@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Front-End" ,
+        "tags": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "React"
+                ],
+        "description":"Développement d'applications web front-end et de sites vitrines"
+    },
+    {
+        "name": "Back-End" ,
+        "tags": [
+                    "MongoDB",
+                    "Node.js"
+                ],
+        "description":"Développement de bases de données noSQL et d'API"
+    },
+    {
+        "name": "SEO",
+        "tags": [
+                    "Optimisation",
+                    "Reférencement"
+                ],
+        "description": " Optimisation et référencement naturel des sites"
+    }
+]

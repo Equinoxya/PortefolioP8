@@ -1,0 +1,49 @@
+#About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Kalam', cursive;
+    height: 75vh;
+    position: relative;
+}
+h2{
+    font-size: 48px;
+}
+.texte{
+    font-size: 24px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.bloc-text{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.logors{
+    text-decoration: none;
+    color: black;
+}
+.container-rs{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.decoration{
+    z-index: 1;
+    width: 350px;
+    height: 350px;
+    background-color: #e08c8c;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    opacity: 0.2;
+    transform: translate(-50%, -50%);
+}
