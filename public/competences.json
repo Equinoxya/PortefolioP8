@@ -1,5 +1,6 @@
 [
-    {
+    {   
+        "id" : 0,
         "name": "Front-End" ,
         "tags": [
                     "HTML",
@@ -7,22 +8,27 @@
                     "JavaScript",
                     "React"
                 ],
-        "description":"Développement d'applications web front-end et de sites vitrines"
+        "description":"Développement d'applications web front-end et de sites vitrines",
+        "icon": "programmation.png"
     },
-    {
+    {   
+        "id" : 1,
         "name": "Back-End" ,
         "tags": [
                     "MongoDB",
                     "Node.js"
                 ],
-        "description":"Développement de bases de données noSQL et d'API"
+        "description":"Développement de bases de données noSQL et d'API",
+        "icon":"les-donnees.png"
     },
-    {
+    {   
+        "id" : 2,
         "name": "SEO",
         "tags": [
                     "Optimisation",
                     "Reférencement"
                 ],
-        "description": " Optimisation et référencement naturel des sites"
+        "description": " Optimisation et référencement naturel des sites",
+        "icon":"monter-des-escaliers.png"
     }
 ]

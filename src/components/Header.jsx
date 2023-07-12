@@ -25,7 +25,7 @@ const Header = () => {
                 </nav>
             </div>
         </div>
-        <article>
+        <article className='container-header'>
             <p className='text-banner'>
             Bonjour ! <br/>
             Je suis <b>Ophélie</b> développeuse web.
