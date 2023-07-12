@@ -2,6 +2,10 @@
   "name": "portefolio",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
+=======
+  "homepage": "https://equinoxya.github.io/PortefolioP8/",
+>>>>>>> 98a6cf44d559ac95f42168021a5c633fd40e63c2
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
