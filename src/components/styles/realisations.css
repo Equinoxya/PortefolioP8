@@ -1,0 +1,23 @@
+.block-real{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(241, 137, 137, 0.2);
+    font-family: 'Kalam', cursive;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+.realisation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}

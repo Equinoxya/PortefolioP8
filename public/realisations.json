@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 0,
+        "name": "Booki" ,
+        "tags": [
+                    "HTML",
+                    "CSS",
+                    "Responsive"
+                    
+                ],
+        "description":"Développement du site de location Booki, en HTML/CSS, site Responsive",
+        "images": [ 
+                    "Booki/booki.webp"
+                ]
+    },
+    {
+        "id" : 1,
+        "name": "Sophie Bluel" ,
+        "tags": [
+                    "JavaScript"
+                ],
+        "description":"Développement des fonctionnalités login, logout, ajout et suppression de fichier sur le back end en JavaScript",
+        "images": [ 
+                    "/SophieBluel/Accueil.webp"
+                ]
+    }
+    
+]
