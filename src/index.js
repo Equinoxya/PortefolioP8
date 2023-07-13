@@ -8,10 +8,6 @@ const route = createBrowserRouter([
     {
       path: "/",
       element: <Home />
-    },
-    {
-      path:'apropos',
-      element: <h1> A propos </h1>
     }
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
