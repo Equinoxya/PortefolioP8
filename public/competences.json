@@ -16,7 +16,9 @@
         "name": "Back-End" ,
         "tags": [
                     "MongoDB",
-                    "Node.js"
+                    "Node.js",
+                    "Express",
+                    "Mongoose"
                 ],
         "description":"Développement de bases de données noSQL et d'API",
         "icon":"les-donnees.png"
