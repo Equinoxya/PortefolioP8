@@ -133,3 +133,26 @@ nav{
 	text-decoration: none;
 	color: black;
 }
+@media screen and (max-width:1200px){
+	nav ul{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:767px){
+	.header{
+		display: none;
+	}
+	.container-header{
+		flex-direction: column-reverse;
+		
+	}
+	.container-header img{
+		width: 200px;
+		height: 200px;
+	}
+	.text-banner{
+		width: 90%;
+		text-align: center;
+	}
+}

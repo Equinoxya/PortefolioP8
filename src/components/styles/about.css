@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Kalam', cursive;
-    height: 75vh;
+    margin: 5%;
     position: relative;
 }
 h2{
@@ -43,7 +43,15 @@ h2{
     border-radius: 50%;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 55%;
     opacity: 0.2;
     transform: translate(-50%, -50%);
 }
+
+
+@media screen and (max-width:767px){
+.container-rs{
+    width: 100%;
+}
+}
+
