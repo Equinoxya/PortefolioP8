@@ -37,9 +37,11 @@
     border-radius: 25px;
     font-family: 'Kalam', cursive;
     font-size: 16px;
+    display: flex;
+    align-items: center;
 }
 .button-cv{
-    width: 100%;
+    width: 65%;
     border: none;
     background-color: rgb(46, 230, 107, 0) ;
     border-radius: 25px;

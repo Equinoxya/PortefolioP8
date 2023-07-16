@@ -1,4 +1,5 @@
 import "./styles/competences.css"
+import { FaCloudUploadAlt } from 'react-icons/fa';
 
 
 const CVViewer = () => {
@@ -12,6 +13,7 @@ const CVViewer = () => {
     return (
         <div className='button'>
             <button onClick={handleDownloadCV} className='button-cv'>Télécharge mon CV</button>
+            <FaCloudUploadAlt size="28px"/>
         </div>
     );
     };
