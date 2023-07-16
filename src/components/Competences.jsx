@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './styles/competences.css'
 import Card from './Card';
 import CVViewer from './Cv';
-import Modale from './Modal';
 
 const Competences = () => {
     const [competences, setCompetence] = useState([]);
@@ -36,7 +35,6 @@ const Competences = () => {
             </div>
             <aside className='buttons'>
                 <CVViewer />
-                <Modale />
             </aside>
         </section>
     )

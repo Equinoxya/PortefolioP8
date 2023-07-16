@@ -35,6 +35,31 @@
         "images": [ 
                     "/NinaCarducci/Accueil.webp"
                 ]
+    },
+    {
+        "id" : 3,
+        "name": "Kasa" ,
+        "tags": [
+                    "React"
+                ],
+        "description":"Création d'une application React pour le site Kasa",
+        "images": [ 
+                    "/Kasa/Accueil.webp"
+                ]
+    },
+    {
+        "id" : 4,
+        "name": "Mon Vieux Grimoire" ,
+        "tags": [
+                    "MongoDB",
+                    "Mongoose",
+                    "Express",
+                    "Node.JS"
+                ],
+        "description":"Création et implantation du back end (Base de donnée et API) pour le site Mon Vieux Grimoire",
+        "images": [ 
+                    "/MonVieuxGrimoire/Page.webp"
+                ]
     }
     
 ]
