@@ -28,7 +28,7 @@ footer h3{
 }
 @media screen and (max-width:768px){
     .copy-button{
-        width: 80%;
+        width: 30%;
     }
     footer{
         margin-top: 5%;
