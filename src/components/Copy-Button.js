@@ -1,20 +1,20 @@
-import React, { useState } from 'react'
-import { useTranslation } from 'react-i18next'
-import copy from 'copy-to-clipboard'
-import { FaRegClipboard, FaClipboardCheck } from 'react-icons/fa'
-import "./styles/Footer.css"
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import copy from 'copy-to-clipboard';
+import { FaRegClipboard, FaClipboardCheck } from 'react-icons/fa';
+import './styles/Footer.css';
 
-function CopyButton ({ value, className, leftIcon, ...rest }) {
-  const { t } = useTranslation()
-  const [copied, setCopied] = useState(false)
+function CopyButton({ value, className, leftIcon, ...rest }) {
+  const { t } = useTranslation();
+  const [copied, setCopied] = useState(false);
 
-  function copyValueToClipboard () {
-    copy(value)
-    setCopied(true)
+  function copyValueToClipboard() {
+    copy(value);
+    setCopied(true);
 
     setTimeout(() => {
-      setCopied(false)
-    }, 1000)
+      setCopied(false);
+    }, 1000);
   }
 
   return (
@@ -23,23 +23,17 @@ function CopyButton ({ value, className, leftIcon, ...rest }) {
       className={`copy-button ${copied ? 'copied' : ''} ${className}`}
       onClick={copyValueToClipboard}
     >
-      { leftIcon && (
+      {leftIcon && (
         <div className="flex valign">
           {leftIcon}
-          <span>
-            { copied ? t('Email copié dans le press papier') : value }
-          </span>
+          <span>{copied ? t('Email copié dans le press papier') : value}</span>
         </div>
-      ) || (
-        <span>
-          { copied ? t('Email copié dans le press papier') : value }
-        </span>
-      )}
+      )} {/* <-- Ajout de la fermeture de parenthèse ici */}
 
-      { !copied && <FaRegClipboard size={28} /> }
-      { copied && <FaClipboardCheck size={28} /> }
+      {!copied && <FaRegClipboard size={28} />}
+      {copied && <FaClipboardCheck size={28} />}
     </a>
-  )
+  );
 }
 
-export default CopyButton
+export default CopyButton;
