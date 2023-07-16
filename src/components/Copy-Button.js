@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import copy from 'copy-to-clipboard';
-import { FaRegClipboard, FaClipboardCheck } from 'react-icons/fa';
+import { FaEnvelopeSquare, FaClipboardCheck } from 'react-icons/fa';
 import './styles/Footer.css';
 
 function CopyButton({ value, className, leftIcon, ...rest }) {
@@ -26,11 +26,11 @@ function CopyButton({ value, className, leftIcon, ...rest }) {
       {leftIcon && (
         <div className="flex valign">
           {leftIcon}
-          <span>{copied ? t('Email copié dans le press papier') : value}</span>
+          <p>{copied ? t('Email copié') : value}</p>
         </div>
       )} {/* <-- Ajout de la fermeture de parenthèse ici */}
 
-      {!copied && <FaRegClipboard size={28} />}
+      {!copied && <FaEnvelopeSquare size={28} />}
       {copied && <FaClipboardCheck size={28} />}
     </a>
   );
