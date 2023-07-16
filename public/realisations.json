@@ -23,6 +23,18 @@
         "images": [ 
                     "/SophieBluel/Accueil.webp"
                 ]
+    },
+    {
+        "id" : 2,
+        "name": "Nina Carducci" ,
+        "tags": [
+                    "SEO",
+                    "Optimisation"
+                ],
+        "description":"Debugage et optimisation du site de la photographe Nina Carducci",
+        "images": [ 
+                    "/NinaCarducci/Accueil.webp"
+                ]
     }
     
 ]
