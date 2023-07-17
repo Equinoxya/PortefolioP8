@@ -43,16 +43,12 @@
 .button-cv{
     width: 65%;
     border: none;
-    background-color: rgb(46, 230, 107, 0) ;
-    text-decoration: none;
+    background-color: rgba(212, 0, 0, 0) ;
     border-radius: 25px;
     font-family: 'Kalam', cursive;
     font-size: 16px;
     padding: 5%;
     cursor: pointer;
-}
-.button-cv :hover{
-    color: black;
 }
 @media screen and (max-width:768px){
     .block-comp{
