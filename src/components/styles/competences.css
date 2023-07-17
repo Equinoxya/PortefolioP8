@@ -51,6 +51,9 @@
     padding: 5%;
     cursor: pointer;
 }
+.button-cv :hover{
+    color: black;
+}
 @media screen and (max-width:768px){
     .block-comp{
         flex-direction: column;
