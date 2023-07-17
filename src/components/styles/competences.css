@@ -44,10 +44,12 @@
     width: 65%;
     border: none;
     background-color: rgb(46, 230, 107, 0) ;
+    text-decoration: none;
     border-radius: 25px;
     font-family: 'Kalam', cursive;
     font-size: 16px;
     padding: 5%;
+    cursor: pointer;
 }
 @media screen and (max-width:768px){
     .block-comp{

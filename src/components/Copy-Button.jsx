@@ -28,10 +28,12 @@ function CopyButton({ value, className, leftIcon, ...rest }) {
           {leftIcon}
           <p>{copied ? t('Email copié') : value}</p>
         </div>
-      )} {/* <-- Ajout de la fermeture de parenthèse ici */}
+      )}
 
       {!copied && <FaEnvelopeSquare size={28} />}
       {copied && <FaClipboardCheck size={28} />}
+
+      {copied && <span>{t('Email copié')}</span>}
     </a>
   );
 }

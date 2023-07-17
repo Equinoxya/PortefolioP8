@@ -102,12 +102,34 @@ nav{
     align-items: center;
 }
 .text-banner{
-    font-size: 2.8125rem;
+    font-size: 35px;
     line-height: 1.4;
     color: rgb(0, 0, 0);
-    width: 28%;
+    width: 50%;
     margin: 0;
     font-family: 'Kalam', cursive;
+    animation-name: focus-in-contract;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+        
+    /* shorthand
+    animation: focus-in-contract 1s linear 0s 1 normal none;*/
+}
+@keyframes focus-in-contract {
+        
+    0% {
+        letter-spacing:1em;
+        filter:blur(12px);
+        opacity:0;
+    }
+    100% {
+        filter:blur(0);
+        opacity:1;
+    }
 }
 
 .container-header img{
