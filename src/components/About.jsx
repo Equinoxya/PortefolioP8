@@ -17,8 +17,8 @@ const About = () => {
                     <div className='decoration'></div>
                 </div>
                 <div className='container-rs'>
-                    <a className='logors' href="https://github.com/Equinoxya"><i className="fa-brands fa-github fa-beat fa-2xl" aria-valuetext='Github'></i></a>
-                    <a className='logors' href="https://www.linkedin.com/in/ophélie-bellissens-1298b3275/"><i className="fa-brands fa-linkedin fa-beat fa-2xl" aria-valuetext='Linkedin'></i></a>
+                    <a className='logors' href="https://github.com/Equinoxya"><i className="fa-brands fa-github fa-beat fa-2xl"></i></a>
+                    <a className='logors' href="https://www.linkedin.com/in/ophélie-bellissens-1298b3275/"><i className="fa-brands fa-linkedin fa-beat fa-2xl"></i></a>
                 </div>
             </section>
     );
