@@ -43,7 +43,8 @@
 .button-cv{
     width: 65%;
     border: none;
-    background-color: rgba(212, 0, 0, 0) !important ;
+    background-color: rgba(212, 0, 0, 0);
+    color: black;
     border-radius: 25px;
     font-family: 'Kalam', cursive;
     font-size: 16px;
