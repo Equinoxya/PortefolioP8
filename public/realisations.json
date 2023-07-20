@@ -1,6 +1,7 @@
 [
     {
         "id" : 0,
+        "site": "https://equinoxya.github.io/Booki/",
         "name": "Booki" ,
         "tags": [
                     "HTML",
@@ -15,6 +16,7 @@
     },
     {
         "id" : 1,
+        "site": "https://github.com/Equinoxya/Equinoxya-OCP3--SophieBluel",
         "name": "Sophie Bluel" ,
         "tags": [
                     "JavaScript"
@@ -26,6 +28,7 @@
     },
     {
         "id" : 2,
+        "site": "https://equinoxya.github.io/OPP5-Nina/",
         "name": "Nina Carducci" ,
         "tags": [
                     "SEO",
@@ -38,6 +41,7 @@
     },
     {
         "id" : 3,
+        "site": "https://github.com/Equinoxya/kasa-projet6",
         "name": "Kasa" ,
         "tags": [
                     "React"
@@ -49,6 +53,7 @@
     },
     {
         "id" : 4,
+        "site": "https://github.com/Equinoxya/P7-Mon-Vieux-Grimoire",
         "name": "Mon Vieux Grimoire" ,
         "tags": [
                     "MongoDB",

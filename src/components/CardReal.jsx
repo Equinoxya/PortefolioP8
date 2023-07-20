@@ -4,6 +4,7 @@ import './styles/cardReal.css'
 const CardReal = (props) => {
     return (
         <div className='card-real' key={props.id}>
+            <a href={props.site} className='site'>
             <h3>{props.name}</h3>
                 <img src={props.icon} alt={props.name} className='imageCard'/>
             <p> {props.description} </p>
@@ -15,6 +16,7 @@ const CardReal = (props) => {
                 </span>
                 ))}
             </div>
+            </a>
         </div>
     );
 };

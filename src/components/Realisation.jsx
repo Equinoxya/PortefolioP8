@@ -24,6 +24,7 @@ const Realisation = () => {
                 <React.Fragment key={realisation.id}>
                     <CardReal
                         name={realisation.name}
+                        site={realisation.site}
                         icon={realisation.images}
                         tags={realisation.tags}
                         description={realisation.description}
