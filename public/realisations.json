@@ -12,7 +12,9 @@
         "description":"Développement du site de location Booki, en HTML/CSS, site Responsive",
         "images": [ 
                     "Booki/booki.webp"
-                ]
+                ],
+        "context": "L'entreprise Booki souhaite développer un site internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+        "problematique": "Dans ce projet il a fallu respecter les spécifications et contraintes techniques regroupées dans la note de synthèse qui nous était fournie ainsi que la maquette. Il a fallu notamment que les cartes 'hébergement' soit cliquables dans leur entièreté, le site devait être responsive avec 3 breakpoint donnés et le code devait être passé aux validateurs W3C."
     },
     {
         "id" : 1,
@@ -24,7 +26,9 @@
         "description":"Développement des fonctionnalités login, logout, ajout et suppression de fichier sur le back end en JavaScript",
         "images": [ 
                     "/SophieBluel/Accueil.webp"
-                ]
+                ],
+        "context": "Notre cliente, Sophie Bluel, souhaite que nous lui developpions un portfolio avec ses différents projets d'architecte. J'ai été chargé de développer la partie front-end en Javascript.",
+        "problematique": "Dans ce projet, il a fallu que je développe les fonctions de la page de présentation, la page de connexion de l'administrateur du site et la modale permettant d'uploader de nouveau médias. Il a fallu faire en sorte que le site se mette à jour sans qu'il n'y ait de rafraichissement de la page en manipulant le DOM."
     },
     {
         "id" : 2,
@@ -37,7 +41,9 @@
         "description":"Debugage et optimisation du site de la photographe Nina Carducci",
         "images": [ 
                     "/NinaCarducci/Accueil.webp"
-                ]
+                ],
+        "context": "Notre client Qwenta souhaite faire développer un 'Menu Maker', site permettant aux restaurateurs d'afficher et de mettre en page leurs menus facilement. J'ai été chargé de préparer et planifier le projet.",
+        "problematique": "Dans ce projet en AGILE, il a fallu commencer par développer un système de veille qui pourrait être réutilisé par l'équipe. Dans un second temps, il a fallu remplir les spécifications techniques du projet en justifiant mes choix. Enfin, j'ai dû faire la planification du projet via un logiciel (Notion) à travers des KANBAN et un diagramme de GANTT et présenter tout cela au client."
     },
     {
         "id" : 3,
@@ -49,7 +55,9 @@
         "description":"Création d'une application React pour le site Kasa",
         "images": [ 
                     "/Kasa/Accueil.webp"
-                ]
+                ],
+        "context": "Je suis recruté par Kasa, leader de la location d'appartements entre particulier, en tant que freelance pour développer sa nouvelle platforme web. Le site a été codé il y a plus 10 de ans en ASP.NET et j'ai été chargé de recoder le site en React.",
+        "problematique": "Dans ce projet, il a fallu partir de la maquette fournie et coder depuis zéro le front-end avec React et React-Router. Parmi les défis à relever : créer différentes routes dans le router, créer des boites de texte ouvrables et fermables, créer un carroussel cyclique et enfin rediriger vers une page d'erreur en cas d'erreur d'URL. Tout le site devait être responsive."
     },
     {
         "id" : 4,
@@ -64,7 +72,9 @@
         "description":"Création et implantation du back end (Base de donnée et API) pour le site Mon Vieux Grimoire",
         "images": [ 
                     "/MonVieuxGrimoire/Page.webp"
-                ]
+                ],
+        "context": "La chaîne de librairies souhaite ouvrir un site de notation de livres qui permettra au membres d'ajouter un nouveau livre et de mettre une note visible par le public. J'ai été chargé de developper la partie back end du site en node.js.",
+        "problematique": "Dans ce projet, il a fallu suivre le cahier des charges fourni. J'ai commencé par créer le serveur et le router grâce au framework Express et paramétrer le base de données MongoDB grâce à la bibliothèque Mongoose. J'ai créé différents middlewares pour l'authentification, la gestion des requêtes multipart et pour le retraitement des images (green code). Enfin grâce aux méthodes HTTP, j'ai créé différents controlleurs pour manipuler la base de données."        
     }
     
 ]

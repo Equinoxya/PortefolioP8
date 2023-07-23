@@ -16,6 +16,11 @@
     text-align: center;
     margin-bottom: 2%;
     height: auto;
+    cursor: pointer;
+    
+}
+.card-real:hover{
+    transform: scale(1.1);
 }
 .tags-real{
     display: flex;
