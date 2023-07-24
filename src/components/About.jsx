@@ -11,7 +11,7 @@ const About = () => {
                         j'ai pris la décision de me lancer dans le monde de la tech via le developpement web.
                     </p>
                     <p className='texte'>    
-                        Ma curiosité et ma capacité à m'adapter à toutes situations m'ont permit, 
+                        Ma curiosité et ma capacité à m'adapter à toute situation m'ont permis, 
                         aujourd'hui, de me lancer sereinement dans le développement de site dans leur entièreté.
                     </p>
                     <div className='decoration'></div>
