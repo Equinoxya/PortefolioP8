@@ -32,9 +32,6 @@ const Header = () => {
             </p>
             <img src="Pp.webp" alt="logo" />
         </article> 
-        <div className='move'>
-            <a href="#Projets" className='direction'>Direction les réalisations</a>
-        </div>
         </header>
     );
 };
