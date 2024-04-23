@@ -1,8 +1,9 @@
 footer{
     height: 20vh;
-    font-family: 'Kalam', cursive;
+    font-family: "Orbitron", sans-serif;
     font-size: 16px;
     text-align: center;
+    background-color: #344D59;
 }
 .container_footer{
     display: flex;
@@ -16,7 +17,7 @@ footer{
     align-items: center;
 }
 .copy-button{
-    background-color: black;
+    background-color: #7A90A4;
     color: white;
     padding: 1%;
     border-radius: 25px;

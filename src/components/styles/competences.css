@@ -3,11 +3,10 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(241, 137, 137, 0.2);
     border-radius: 25px;
     width: 95%;
     margin: auto;
-    font-family: 'Kalam', cursive;
+    font-family: "Orbitron", sans-serif;
 }
 .competence{
     display: flex;
@@ -31,22 +30,22 @@
 .button{
     width: 20%;
     height: 40%;
-    background-color: rgb(46, 230, 107, 0.5) ;
+    background-color: white ;
     appearance: none;
     border: none;
     border-radius: 25px;
-    font-family: 'Kalam', cursive;
+    font-family: "Orbitron", sans-serif;
     font-size: 16px;
     display: flex;
     align-items: center;
 }
 .button-cv{
-    width: 65%;
+    width: 80%;
     border: none;
     color: black;
     border-radius: 25px;
-    background-color: rgb(46, 230, 107, 0.1) ;
-    font-family: 'Kalam', cursive;
+    background-color: white ;
+    font-family: "Orbitron", sans-serif;
     font-size: 16px;
     padding: 5%;
     cursor: pointer;

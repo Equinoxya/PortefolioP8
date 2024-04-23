@@ -13,7 +13,7 @@
   }
   .ReactModal__Overlay{
     position: absolute;
-    font-family: 'Kalam', cursive;
+    font-family: "Orbitron", sans-serif;
     font-size: 16px;
   }
 .ReactModal__Content{
@@ -40,7 +40,7 @@
   
   /* Styling for the close button */
   .modal-content button {
-    background-color: rgb(243, 222, 226);
+    background-color: #344D59;
     border: none;
     width: 50%;
     cursor: pointer;
@@ -74,7 +74,7 @@
   .tag {
     border-radius: 25px;
     padding: 3%;
-    background-color: rgb(243, 222, 226);
+    background-color: #7A90A4;
     margin-bottom: 2%;
   }
 .tags-modale{
