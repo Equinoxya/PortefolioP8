@@ -34,7 +34,6 @@ const Header = () => {
         </article> 
         <div className='move'>
             <a href="#Projets" className='direction'>Direction les réalisations</a>
-            <i className="fa-solid fa-arrow-down fa-bounce fa-xl"></i>
         </div>
         </header>
     );
