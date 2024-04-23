@@ -1,5 +1,4 @@
 import "./styles/competences.css"
-import { FaCloudUploadAlt } from 'react-icons/fa';
 
 
 const CVViewer = () => {
