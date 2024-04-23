@@ -11,10 +11,7 @@ const CVViewer = () => {
     };
 
     return (
-        <div className='button'>
             <button onClick={handleDownloadCV} className='button-cv'>Télécharge mon CV</button>
-            <FaCloudUploadAlt size="28px"/>
-        </div>
     );
     };
 

@@ -48,6 +48,12 @@ nav{
     align-items: stretch;
     justify-content: space-around;
 }
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150vh;
+}
 @keyframes textclip {
     to {
             background-position: 200% center;

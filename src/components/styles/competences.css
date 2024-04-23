@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
+    width: 30%;
     height: 15vh;
     margin: 5%;
 }
@@ -40,7 +40,7 @@
     align-items: center;
 }
 .button-cv{
-    width: 80%;
+    width: 100%;
     border: none;
     color: black;
     border-radius: 25px;
