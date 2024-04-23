@@ -24,8 +24,11 @@ const Header = () => {
         </div>
         <article className='container-header'>
             <p className='text-banner'>
-            Bonjour ! <br/>
-            Je suis <b>Ophélie</b> développeuse web.
+            Salut ! <br />
+            Moi, c'est <b>Ophélie</b> – la magicienne du code, l'architecte de l'internet, et occasionnellement, développeuse web. 
+            Quand je ne suis pas en train de sauver le monde digital un site à la fois, je transforme du café en lignes de code pour 
+            créer des sites web qui sont plus performants que ma machine à café. Prenez un instant pour explorer mon univers, découvrir mes créations, 
+            et voir comment ensemble, on peut donner vie à vos idées les plus folles – et faire en sorte qu’elles fonctionnent sur tous les écrans, promis !
             </p>
             <img src="Pp.webp" alt="logo" />
         </article> 

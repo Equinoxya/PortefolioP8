@@ -4,6 +4,7 @@ footer{
     font-size: 16px;
     text-align: center;
     background-color: #344D59;
+    color: white;
 }
 .container_footer{
     display: flex;
