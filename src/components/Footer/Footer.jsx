@@ -7,10 +7,7 @@ const Footer = () => {
         <footer>
             <div className='container_footer'>
                 <h3>Pour me contacter</h3>
-                    <CopyButton 
-                        className="email"
-                        value={"obellissens@gmail.com"}
-                    />
+                    <CopyButton/>
                 <p className='copyright'>© 2023 Ophélie BELLISSENS, Tous droits réservés. </p>
             </div>
         </footer>

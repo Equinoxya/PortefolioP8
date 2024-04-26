@@ -5,6 +5,7 @@ import Competences from '../components/Competences/Competences';
 import Realisation from '../components/Realisations/Realisation';
 import Footer from '../components/Footer/Footer';
 
+
 const Home = () => {
     return (
         <div>
