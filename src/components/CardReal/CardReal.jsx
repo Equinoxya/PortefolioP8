@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import './styles/cardReal.css'
-import './styles/modal.css'
+import './cardReal.css'
+import './modal.css'
 
 Modal.setAppElement('#root');
 
@@ -29,10 +29,11 @@ const CardReal = (props) => {
                 </span>
                 ))}
             </div>
-            <Modal isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        shouldCloseOnOverlayClick={true}>
-                <div className="modal-overlay" onClick={closeModal}>
+            <Modal  isOpen={modalIsOpen}
+                    onRequestClose={closeModal}
+                    shouldCloseOnOverlayClick={true}
+                    shouldCloseOnEsc={true}>
+                <div className="modal-overlay">
                     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                         <h2>Contexte</h2>
                         <p>{props.context}</p>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import './styles/competences.css'
-import Card from './Card';
+import './competences.css'
+import Card from '../Card/Card';
 import CVViewer from './Cv';
 
 const Competences = () => {
@@ -16,7 +16,7 @@ const Competences = () => {
     }
     return( 
         <section className='block-comp'id='Competences'>
-            <h1>Mes compétences</h1>
+            <h1>Compétences</h1>
             <div className='competence'>
                 
                 {competences.map((competence) => 
@@ -26,8 +26,6 @@ const Competences = () => {
                         icon={competence.icon}
                         tags={competence.tags}
                         description={competence.description}
-                        
-                        
                     />
                 </React.Fragment>
                 )

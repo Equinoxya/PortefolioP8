@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import copy from 'copy-to-clipboard';
 import { FaEnvelopeSquare, FaClipboardCheck } from 'react-icons/fa';
-import './styles/Footer.css';
+import './Footer.css';
 
 function CopyButton({ value, className, leftIcon, ...rest }) {
   const { t } = useTranslation();

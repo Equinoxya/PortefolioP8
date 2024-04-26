@@ -9,7 +9,7 @@
                     "React"
                 ],
         "description":"Développement d'applications web front-end et de sites vitrines",
-        "icon": "programmation.png"
+        "icon": "https://cdn.hugeicons.com/icons/java-script-stroke-rounded.svg"
     },
     {   
         "id" : 1,
@@ -21,7 +21,7 @@
                     "Mongoose"
                 ],
         "description":"Développement de bases de données noSQL et d'API",
-        "icon":"les-donnees.png"
+        "icon":"https://cdn.hugeicons.com/icons/ai-laptop-stroke-rounded.svg"
     },
     {   
         "id" : 2,
@@ -33,6 +33,7 @@
                     "Responsive"
                 ],
         "description": " Optimisation et référencement naturel des sites",
-        "icon":"monter-des-escaliers.png"
+        "icon":"https://cdn.hugeicons.com/icons/seo-stroke-rounded.svg"
+    
     }
 ]

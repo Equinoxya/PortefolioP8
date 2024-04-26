@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/header.css'
+import './header.css'
 
 const Header = () => {
     return (
@@ -13,10 +13,10 @@ const Header = () => {
                             <a href="#About">Présentation</a>
                         </li>
                         <li>
-                            <a href="#Competences">Mes compétences</a>
+                            <a href="#Competences">Compétences</a>
                         </li>
                         <li>
-                            <a href="#Projets">Mes réalisations</a>
+                            <a href="#Projets">Réalisations</a>
                         </li>
                     </ul>
                 </nav>

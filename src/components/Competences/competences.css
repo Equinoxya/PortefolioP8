@@ -59,6 +59,7 @@
     }
     .buttons{
         flex-direction: column;
+        width: 50%;
     }
     .button{
         width: 70%;
@@ -67,6 +68,6 @@
         text-align: center;
     }
     .button-cv{
-        padding: 2%;
+        padding: 5%;
     }
 }

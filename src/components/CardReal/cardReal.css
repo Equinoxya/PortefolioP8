@@ -4,7 +4,7 @@
     object-fit: contain;
 }
 .card-real{
-    width: 30%;
+    width: 90%;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -19,12 +19,10 @@
     cursor: pointer;
     
 }
-.card-real:hover{
-    transform: scale(1.1);
-}
 .tags-real{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 90%;
 }
 .site{

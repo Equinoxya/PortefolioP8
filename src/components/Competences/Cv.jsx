@@ -1,4 +1,4 @@
-import "./styles/competences.css"
+import "./competences.css"
 
 
 const CVViewer = () => {

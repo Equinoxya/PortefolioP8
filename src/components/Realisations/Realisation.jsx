@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import CardReal from './CardReal';
-import "./styles/realisations.css"
+import CardReal from '../CardReal/CardReal';
+import "./realisations.css"
 
 
 
@@ -17,7 +17,7 @@ const Realisation = () => {
     }
     return( 
         <section className='block-real' id='Projets'>
-            <h1>Mes Réalisations</h1>
+            <h1>Réalisations</h1>
             <div className='realisation'>
                 
                 {realisations.map((realisation) => 

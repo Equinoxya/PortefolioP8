@@ -1,6 +1,6 @@
 import React from 'react';
 import CopyButton from './Copy-Button';
-import "./styles/Footer.css"
+import './Footer.css'
 
 const Footer = () => {
     return (
