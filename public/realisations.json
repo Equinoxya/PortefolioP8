@@ -42,8 +42,8 @@
         "images": [ 
                     "/NinaCarducci/Accueil.webp"
                 ],
-        "context": "Notre client Qwenta souhaite faire développer un 'Menu Maker', site permettant aux restaurateurs d'afficher et de mettre en page leurs menus facilement. J'ai été chargé de préparer et planifier le projet.",
-        "problematique": "Dans ce projet en AGILE, il a fallu commencer par développer un système de veille qui pourrait être réutilisé par l'équipe. Dans un second temps, il a fallu remplir les spécifications techniques du projet en justifiant mes choix. Enfin, j'ai dû faire la planification du projet via un logiciel (Notion) à travers des KANBAN et un diagramme de GANTT et présenter tout cela au client."
+        "context": "Notre cliente souhaitait optimiser son portfolio, augmenter la fluidité de son site tout en gardant une qualité d'image impéccable ",
+        "problematique": "Pour celà nous avons dû travailler sur les différents points d'amélioration, tel que la compression des fichiers ainsi que sur les bons gestes SEO."
     },
     {
         "id" : 3,
