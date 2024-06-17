@@ -13,7 +13,6 @@ function CopyButton({ value, className = '', leftIcon, ...rest }) {
   }
 
   const icon = copied ? <FaClipboardCheck size={28} /> : <FaEnvelopeSquare size={28} />;
-  const buttonText = copied ? ('Email copié') : (value);
 
   return (
     <button
